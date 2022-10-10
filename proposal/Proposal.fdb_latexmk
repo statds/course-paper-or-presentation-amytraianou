@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Proposal"] 1665428256 "Proposal.aux" "Proposal.bbl" "Proposal" 1665428256
-  ".../manuscript/refs.bibliography.bib" 0 -1 0 ""
+["bibtex Proposal"] 1665428720 "Proposal.aux" "Proposal.bbl" "Proposal" 1665428720
+  "../manuscript/refs.bib" 1665427132 2220 65a9470d044cbacb32fc9d3cc0a68756 ""
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "Proposal.aux" 1665428255 1578 77e805d111246aae961296d57fe7ebfe "pdflatex"
+  "Proposal.aux" 1665428720 1564 92623aac66c2c5acce4e89af9cc20c74 "pdflatex"
   (generated)
   "Proposal.bbl"
   "Proposal.blg"
-["pdflatex"] 1665428254 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/proposal/Proposal.tex" "Proposal.pdf" "Proposal" 1665428256
-  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/proposal/Proposal.tex" 1665428252 4425 83d0831746eb0c7a93a3ad8b46b617be ""
+["pdflatex"] 1665428719 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/proposal/Proposal.tex" "Proposal.pdf" "Proposal" 1665428719
+  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/proposal/Proposal.tex" 1665428714 4409 ff6fad53de4dbb39d220e465eae2e6eb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -88,10 +88,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1664260976 4595816 106c4e272f709332e200b7ab82c17944 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664261035 3024760 accb52bd983a3a49e0634e4fd6ffb5e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Proposal.aux" 1665428255 1578 77e805d111246aae961296d57fe7ebfe "pdflatex"
+  "Proposal.aux" 1665428719 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "Proposal.bbl" 0 -1 0 "bibtex Proposal"
   "Proposal.out" 0 -1 0 "pdflatex"
-  "Proposal.tex" 1665428252 4425 83d0831746eb0c7a93a3ad8b46b617be ""
+  "Proposal.tex" 1665428714 4409 ff6fad53de4dbb39d220e465eae2e6eb ""
   "formula.png" 1665427132 39018 e890bd986362279c77d2bc2c421295c0 ""
   (generated)
   "Proposal.aux"

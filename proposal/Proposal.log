@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  10 OCT 2022 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  10 OCT 2022 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,24 +285,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (./Proposal.aux)
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -363,8 +363,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 22.
- (./Proposal.out) (./Proposal.out)
+Package hyperref Info: Link coloring ON on input line 20.
 \@outlinefile=\write3
 \openout3 = `Proposal.out'.
 
@@ -372,55 +371,70 @@ Package hyperref Info: Link coloring ON on input line 22.
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `Larrey2010is' on page 1 undefined on input line 31.
+Package natbib Warning: Citation `Larrey2010is' on page 1 undefined on input line 28.
 
 
-Package natbib Warning: Citation `vishnu2016does' on page 1 undefined on input line 31.
+Package natbib Warning: Citation `vishnu2016does' on page 1 undefined on input line 28.
 
 
-Package natbib Warning: Citation `Hussein2021high' on page 1 undefined on input line 36.
+Package natbib Warning: Citation `Hussein2021high' on page 1 undefined on input line 33.
 
 
-Package natbib Warning: Citation `arham2022egypt' on page 1 undefined on input line 39.
+Package natbib Warning: Citation `arham2022egypt' on page 1 undefined on input line 36.
 
 
-Package natbib Warning: Citation `2020association' on page 1 undefined on input line 44.
+Package natbib Warning: Citation `2020association' on page 1 undefined on input line 41.
 
 
-Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 65.
+Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 64.
 
-<formula.png, id=12, 455.7025pt x 173.64874pt>
+
+LaTeX Warning: Reference `fig:formula' on page 1 undefined on input line 69.
+
+<formula.png, id=11, 455.7025pt x 173.64874pt>
 File: formula.png Graphic file (type png)
 <use formula.png>
-Package pdftex.def Info: formula.png  used on input line 74.
+Package pdftex.def Info: formula.png  used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 86.73936pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 
+l.85 
       [1 <./formula.png>]
 No file Proposal.bbl.
 
 Package natbib Warning: There were undefined citations.
 
 [2] (./Proposal.aux)
-Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Proposal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Proposal.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10335 strings out of 475326
- 166378 string characters out of 5784792
- 599955 words of memory out of 5000000
+ 10331 strings out of 475326
+ 166326 string characters out of 5784792
+ 599712 words of memory out of 5000000
  31343 multiletter control sequences out of 15000+600000
  474639 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,374b,344s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Proposal.pdf (3 pages, 70932 bytes).
+Output written on Proposal.pdf (3 pages, 70828 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

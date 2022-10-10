@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Proposal.aux
+The style file: chicago.bst
+Database file #1: ../manuscript/refs.bib
+I was expecting a `,' or a `}'---line 48 of file ../manuscript/refs.bib
+ :   
+ :   url = {https://english.ahram.org.eg/News/477373.aspx}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--page numbers missing in vishnu2016does
+Warning--no journal in arham2022egypt
+Warning--no number and no volume in arham2022egypt
+Warning--page numbers missing in arham2022egypt
+You've used 6 entries,
+            2861 wiz_defined-function locations,
+            655 strings with 6108 characters,
+and the built_in function-call counts, 4342 in all, are:
+= -- 323
+> -- 379
+< -- 0
++ -- 114
+- -- 130
+* -- 414
+:= -- 833
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 49
+chr.to.int$ -- 6
+cite$ -- 10
+duplicate$ -- 100
+empty$ -- 236
+format.name$ -- 138
+if$ -- 775
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 32
+num.names$ -- 60
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 103
+stack$ -- 0
+substring$ -- 202
+swap$ -- 32
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 4
+while$ -- 56
+width$ -- 0
+write$ -- 78
+(There was 1 error message)

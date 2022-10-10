@@ -586,16 +586,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT ./Proposal.out
-INPUT Proposal.out
-INPUT ./Proposal.out
-INPUT Proposal.out
-INPUT ./Proposal.out
-INPUT Proposal.out
-INPUT ./Proposal.out
-INPUT Proposal.out
-INPUT ./Proposal.out
-INPUT ./Proposal.out
 OUTPUT Proposal.out
 OUTPUT Proposal.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
