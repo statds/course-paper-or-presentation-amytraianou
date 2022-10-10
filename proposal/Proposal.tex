@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{natbib}
+\usepackage{array}
 
 \usepackage{lipsum}
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
@@ -23,8 +24,10 @@
 
 
 \paragraph{Introduction}
-For this paper I decided to explore the risk factors associated with breast cancer in women. 
-\citep{dwivedi2017analysis}
+For this paper I decided to explore the risk factors associated with breast cancer in women. Breast cancer is extremely
+prevalent and researchers are constantly trying to determine risk factors to identify women for preventative exams.
+There are many studies attempting to determine if there is an association between certain risk factors and 
+breast cancer including chronic hepatitis C infection \citep{Larrey2010is} and hepatitis B \citep{vishnu2016does}. 
 
 
 \paragraph{Specific Aims}
@@ -36,18 +39,44 @@ as a area of interest \citep{arham2022egypt}. Thus, research surrounding these d
 important in the field. 
 
 \paragraph{Data}
-The data I will be using is from a retrospective study conducted in 2020 \citep{2020association}. The data includes 405 subjects as
+The data I will be using is from a retrospective case control study conducted in 2020 \citep{2020association}. The data includes 405 subjects as
 part of the study group, all having been treated for breast cancer in the past 10 years. The second group consists of 145 adult females
-from a governorate in Egypt, who all participated in a cross-sectional study from 2015-2017.
+from a governorate in Egypt, who all participated in a cross-sectional study from 2015-2017. This data can be put into a 2x2 contingency table
+for statistical analysis. 
+
+\begin{tabular}{ | m{1m} | m{1cm}| m{1cm} | m{1cm} | }
+  \hline
+  Risk Factor  & Study Group & Control & Total\\ 
+  \hline
+  Anti-HCV Seropositive & 88 & 15 & 103 \\ 
+  \hline
+  Anti-HCV Seronegative & 317 & 130 & 447 \\ 
+  \hline
+  Total & 405 & 145 & 550 \\ 
+  \hline
+\end{tabular}
+
 
 \paragraph{Research Design and Methods}
-To test the association of breast cancer and Hepatitis C, I am going to use Fisher's Exact test. 
+To test the association of breast cancer and Hepatitis C, I am going to use either the chi-square or Fisher's Exact test, depending on the
+conditions from the sample size \citep{warner2013testing}. Fisher's exact test is useful for when the normality assumption is violated 
+and the expected values of the 2x2 table are too small. The test uses the hypergeometric distribution to test if the probabilities are
+the same between the two groups. Thus, we can determine if there is more of a risk of breast cancer for those with seropositive Hep C. As
+ a result, we can determine if women who chronically test positive should be tested more frequently because they are at a higher risk. 
+ 
+ 
 
 \paragraph{Discussion}
-I expect to find an association. 
+I expect to find an association between hepatitis C and breast cancer because there is some existing research that agrees with the association.
+Therefore, this paper would corroborate the exisitng assumptions while giving them more of a basis. Although the potential impacts are quite 
+minimal, the more research that supports the association, the better. If the investigation is not what I expect, then I would suggest more
+data needs to be collected surrounding women with breast cancer in Eygpt. Specifically, a full prospective study with new samples. 
 
 \paragraph{Conclusion}
-This is the conclusion. 
+In conclusion, I propose using data from women in Egypt to determine if there is an association between seropositive Hepatitis C and 
+breast cancer. The Egyptian government has identified breast cancer as an area of interest for medical research so it has importance in
+the field. Additionally, identifying a new risk factor for breast cancer would increase preventative screening in adult women and hopefully 
+improve the ability to discover cancer in earlier stages. 
 
 
 
