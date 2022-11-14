@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  13 NOV 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  13 NOV 2022 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,46 +390,22 @@ Package natbib Warning: Citation `arham2022egypt' on page 1 undefined on input l
 
 Package natbib Warning: Citation `2020association' on page 1 undefined on input line 58.
 
-/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex:70: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.70   \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex:87: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.87   \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex:104: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.104   \hline
-              
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 119.
+Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 116.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 
+l.120 
        [1]
 
-LaTeX Warning: Reference `fig:formula' on page 2 undefined on input line 124.
+LaTeX Warning: Reference `fig:formula' on page 2 undefined on input line 121.
 
 <formula.png, id=21, 455.7025pt x 173.64874pt>
 File: formula.png Graphic file (type png)
 <use formula.png>
-Package pdftex.def Info: formula.png  used on input line 128.
+Package pdftex.def Info: formula.png  used on input line 125.
 (pdftex.def)             Requested size: 227.62204pt x 86.73936pt.
 No file manuscript.bbl.
 
@@ -452,15 +428,15 @@ Package rerunfilecheck Info: Checksums for `manuscript.out':
 (rerunfilecheck)             After:  2940BEB7812DCD36BC314D0B9232C45C;435.
  ) 
 Here is how much of TeX's memory you used:
- 10345 strings out of 475326
- 166519 string characters out of 5784792
+ 10342 strings out of 475326
+ 166482 string characters out of 5784792
  604729 words of memory out of 5000000
- 31357 multiletter control sequences out of 15000+600000
+ 31354 multiletter control sequences out of 15000+600000
  475546 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,378b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on manuscript.pdf (4 pages, 81845 bytes).
+Output written on manuscript.pdf (4 pages, 81826 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

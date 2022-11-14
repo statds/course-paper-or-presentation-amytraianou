@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex manuscript"] 0 "manuscript.aux" "manuscript.bbl" "manuscript" 0
+["bibtex manuscript"] 1668391369 "manuscript.aux" "manuscript.bbl" "manuscript" 1668391369
   "../manuscript/refs.bib" 1665427132 2220 65a9470d044cbacb32fc9d3cc0a68756 ""
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "manuscript.aux" 0 -1 0 "pdflatex"
+  "manuscript.aux" 1668391369 1748 a4718c1c57f015433141b4d55e780a65 "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
-["pdflatex"] 1668390518 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1668390518
-  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" 1668390518 5632 41e60e185b2f50dd7d4a1c7185b98177 ""
+["pdflatex"] 1668391368 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1668391368
+  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" 1668391366 5568 08cc9fdd32c96569a17df23ab246d5c0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -91,10 +91,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664261035 3024760 accb52bd983a3a49e0634e4fd6ffb5e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "formula.png" 1668388149 39018 e890bd986362279c77d2bc2c421295c0 ""
-  "manuscript.aux" 1668390518 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "manuscript.aux" 1668391368 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "manuscript.bbl" 0 -1 0 "bibtex manuscript"
   "manuscript.out" 0 -1 0 "pdflatex"
-  "manuscript.tex" 1668390518 5632 41e60e185b2f50dd7d4a1c7185b98177 ""
+  "manuscript.tex" 1668391366 5568 08cc9fdd32c96569a17df23ab246d5c0 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
