@@ -1,4 +1,9 @@
-## STAT 3494W Course Paper
+## Association between Breast Cancer and Hepatitis C Virus with Age Controlling
 
-This repository currently contains my proposal for my final paper regarding
-an association between Hepatitis C and breast cancer in adult women. 
+In Egypt Hepatitus C virus infection is a common problem that often impedes treatment
+of Breast Cancer in female patients. While previous work has analyze an associaiton 
+between HCV seropositivity and breast cancer diagnosis, this paper will focus on the 
+potential confounding of age on the association. We will use Fisher's Exact Test to
+estimate the crude estimate of the association and the Mantel-Haenszel method to 
+stratify the data between ages. The possible effect of age in the association can
+lead to improved care for patients. 
