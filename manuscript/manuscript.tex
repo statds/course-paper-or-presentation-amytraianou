@@ -11,7 +11,7 @@
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
 
 
-\title{Proposal: Association between Breast Cancer and Hepatitis C Virus}
+\title{Association between Breast Cancer and Hepatitis C Virus with Age Confounding}
 \author{Amy Traianou\\
   Department of Statistics\\
   University of Connecticut
@@ -20,34 +20,24 @@
 \begin{document}
 \maketitle
 
-\doublespace
 
 \begin{abstract}
 The Kolmogorov--Smirnov (KS) test is one of the most popular goodness-of-fit
 tests for comparing a sample with a hypothesized continuous distribution.
-Nevertheless, it has often been misused. The standard one-sample KS test applies
-to independent, continuous data with a hypothesized distribution that is
-completely specified. It is not uncommon, however, to see in the literature that
-it was applied to dependent, discrete, or rounded data, with hypothesized
-distributions containing estimated parameters. For example, it has been
-``discovered'' multiple times that the test is too conservative when
-hypothesized distribution has parameters that need to be estimated.
-We demonstrate misuses of the one-sample KS test in
-three scenarios through simulation studies:
-1) the hypothesized distribution has unspecified parameters;
-2) the data are serially dependent; and
-3) a combination of the first two scenarios.
-For each scenario, we provide remedies for practical applications.
+Nevertheless, it has often been misused.
+
 
 \bigskip
 \noindent{\sc Keywords}:
-nonparametric bootstrap;
-parametric bootstrap.
+Breslow-Day;
+Fisher's Exact Test;
+Mantel-Haenszel.
 \end{abstract}
 
 
-\paragraph{Introduction}
+\section{Introduction}
 \label{sec:intro}
+
 For this paper I decided to explore the risk factors associated with breast cancer in women. Breast cancer is extremely
 prevalent and researchers are constantly trying to determine risk factors to identify women for preventative exams.
 There are many studies attempting to determine if there is an association between certain risk factors and 
@@ -62,44 +52,69 @@ important in the field.
 
 
 
-\paragraph{Data}
+\section{Data}
 \label{sec:data}
-The data I will be using is from a retrospective case control study conducted in 2020 \citep{2020association}. The data includes 405 subjects as
-part of the study group, all having been treated for breast cancer in the past 10 years. The second group consists of 145 adult females
-from a governorate in Egypt, who all participated in a cross-sectional study from 2015-2017. This data can be put into a 2x2 contingency table
+
+The data I will be using is from a retrospective case control study conducted in 2020 \citep{2020association}. 
+The data includes 405 subjects as part of the study group, all having been treated for breast cancer in the 
+past 10 years. The second group consists of 145 adult females from a governorate in Egypt, who all participated 
+in a cross-sectional study from 2015-2017. This data can be put into a 2x2 contingency table
 for statistical analysis. 
 
 \vspace{1cm}
 
-\begin{tabular}{ | m{5cm} | m{3cm}| m{3cm} | m{2cm} | }
-  \hline
-  Risk Factor & Study Group & Control & Total\\ 
-  \hline
-  Anti-HCV Seropositive & 88 & 15 & 103 \\ 
-  \hline
-  Anti-HCV Seronegative & 317 & 130 & 447 \\ 
-  \hline
-  Total & 405 & 145 & 550 \\ 
-  \hline
+2x2 Contingency Table for all patients.
+
+\begin{tabular}{ | m{4cm} | m{4cm}| m{4cm} | m{2cm} | }
   \label{table:total}
+  \hline
+    & HCV Seropositive & HCV Seronegative & Total\\ 
+  \hline
+  Breast Cancer & 88 & 317 & 405 \\ 
+  \hline
+  No Cancer Diagnosis & 15 & 130 & 145 \\ 
+  \hline
+  Total & 103 & 447 & 550 \\ 
+  \hline
 \end{tabular}
 
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-Risk Factor & Breast Cancer & Control & Total\tabularnewline
-\midrule
-\endhead
-Anti-HCV Seropositive & 88 & 15 & 103\tabularnewline
-Anti-HCV Seronegative & 317 & 130 & 447\tabularnewline
-Total & 405 & 145 & 550\tabularnewline
-\bottomrule
-\caption{2x2 Contingency Table for All Patients}
-\label{table:total}
-\end{longtable}
+\vspace{1cm}
 
+2x2 Contingency Table for pateints younger than 45.
 
-\paragraph{Methods}
+\begin{tabular}{ | m{4cm} | m{4cm}| m{4cm} | m{2cm} | }
+  \label{table:young}
+  \hline
+    & HCV Seropositive & HCV Seronegative & Total\\ 
+  \hline
+  Breast Cancer & 17 & 110 & 127 \\ 
+  \hline
+  No Cancer Diagnosis & 2 & 91 & 93 \\ 
+  \hline
+  Total & 19 & 201 & 220 \\ 
+  \hline
+\end{tabular}
+
+\vspace{1cm}
+
+2x2 Contingency Table for patients older than 45.
+
+\begin{tabular}{ | m{4cm} | m{4cm}| m{4cm} | m{2cm} | }
+  \label{table:old}
+  \hline
+    & HCV Seropositive & HCV Seronegative & Total\\ 
+  \hline
+  Breast Cancer & 71 & 207 & 278 \\ 
+  \hline
+  No Cancer Diagnosis & 13 & 39 & 52 \\ 
+  \hline
+  Total & 84 & 246 & 330 \\ 
+  \hline
+\end{tabular}
+
+\section{Methods}
 \label{sec:methods}
+
 To test the association of breast cancer and Hepatitis C, I am going to use either the chi-square or Fisher's Exact test, depending on the
 conditions from the sample size \citep{warner2013testing}. Fisher's exact test is useful for when the normality assumption is violated 
 and the expected values of the 2x2 table are too small. The test uses the hypergeometric distribution to test if the probabilities are
@@ -111,21 +126,23 @@ Figure~\ref{fig:formula} shows the probability of the original table occuring.
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=8cm]{formula.png}
-  \caption{This is the hypergeometric pmf.}
+  \caption{Hypergeometric pmf.}
   \label{fig:formula}
 \end{figure}
 
 
-\paragraph{Application}
+\section{Application}
 \label{sec:app}
+
 I expect to find an association between hepatitis C and breast cancer because there is some existing research that agrees with the association.
 Therefore, this paper would corroborate the exisitng assumptions while giving them more of a basis. Although the potential impacts are quite 
 minimal, the more research that supports the association, the better. If the investigation is not what I expect, then I would suggest more
 data needs to be collected surrounding women with breast cancer in Eygpt. Specifically, a full prospective study with new samples. 
 
 
-\paragraph{Discussion}
+\section{Discussion}
 \label{sec:discuss}
+
 I expect to find an association between hepatitis C and breast cancer because there is some existing research that agrees with the association.
 Therefore, this paper would corroborate the exisitng assumptions while giving them more of a basis. Although the potential impacts are quite 
 minimal, the more research that supports the association, the better. If the investigation is not what I expect, then I would suggest more
