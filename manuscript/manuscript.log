@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  13 NOV 2022 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  13 NOV 2022 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,31 +382,43 @@ Package natbib Warning: Citation `Larrey2010is' on page 1 undefined on input lin
 Package natbib Warning: Citation `vishnu2016does' on page 1 undefined on input line 44.
 
 
-Package natbib Warning: Citation `Hussein2021high' on page 1 undefined on input line 47.
+Package natbib Warning: Citation `Hussein2021high' on page 1 undefined on input line 48.
 
 
-Package natbib Warning: Citation `arham2022egypt' on page 1 undefined on input line 50.
+Package natbib Warning: Citation `arham2022egypt' on page 1 undefined on input line 51.
 
 
-Package natbib Warning: Citation `2020association' on page 1 undefined on input line 58.
+LaTeX Warning: Reference `sec:data' on page 1 undefined on input line 54.
 
 
-Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 116.
+LaTeX Warning: Reference `sec:methods' on page 1 undefined on input line 56.
 
+
+LaTeX Warning: Reference `sec:app' on page 1 undefined on input line 59.
+
+
+LaTeX Warning: Reference `sec:discuss' on page 1 undefined on input line 61.
+
+
+Package natbib Warning: Citation `2020association' on page 1 undefined on input line 69.
+
+
+Package natbib Warning: Citation `warner2013testing' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Reference `fig:formula' on page 1 undefined on input line 91.
+
+<formula.png, id=16, 455.7025pt x 173.64874pt>
+File: formula.png Graphic file (type png)
+<use formula.png>
+Package pdftex.def Info: formula.png  used on input line 95.
+(pdftex.def)             Requested size: 227.62204pt x 86.73936pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 
-       [1]
-
-LaTeX Warning: Reference `fig:formula' on page 2 undefined on input line 121.
-
-<formula.png, id=21, 455.7025pt x 173.64874pt>
-File: formula.png Graphic file (type png)
-<use formula.png>
-Package pdftex.def Info: formula.png  used on input line 125.
-(pdftex.def)             Requested size: 227.62204pt x 86.73936pt.
+l.110 \begin{tabular}
+                     { | m{4cm} | m{4cm}| m{4cm} | m{2cm} | } [1]
 No file manuscript.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -430,13 +442,13 @@ Package rerunfilecheck Info: Checksums for `manuscript.out':
 Here is how much of TeX's memory you used:
  10342 strings out of 475326
  166482 string characters out of 5784792
- 604729 words of memory out of 5000000
+ 601729 words of memory out of 5000000
  31354 multiletter control sequences out of 15000+600000
  475546 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,378b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on manuscript.pdf (4 pages, 81826 bytes).
+Output written on manuscript.pdf (4 pages, 81425 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
