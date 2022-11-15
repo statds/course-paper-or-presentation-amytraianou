@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  14 NOV 2022 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  14 NOV 2022 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,7 +434,7 @@ been already used, duplicate ignored
                    \relax 
 l.39 \end{abstract}
                     [1]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 102--150
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 102--152
 []$[]$ 
  []
 
@@ -443,35 +443,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 \section
+l.154 \section
               {Methods} [1]
-<table.png, id=62, 384.43625pt x 137.51375pt>
+<table.png, id=61, 384.43625pt x 137.51375pt>
 File: table.png Graphic file (type png)
 <use table.png>
-Package pdftex.def Info: table.png  used on input line 179.
+Package pdftex.def Info: table.png  used on input line 184.
 (pdftex.def)             Requested size: 227.62204pt x 81.42197pt.
-<formula.png, id=64, 455.7025pt x 173.64874pt>
-File: formula.png Graphic file (type png)
-<use formula.png>
-Package pdftex.def Info: formula.png  used on input line 186.
-(pdftex.def)             Requested size: 227.62204pt x 86.73936pt.
-<2x2 stratified table.png, id=65, 555.07375pt x 116.435pt>
+<2x2 stratified table.png, id=63, 555.07375pt x 116.435pt>
 File: 2x2 stratified table.png Graphic file (type png)
 <use 2x2 stratified table.png>
-Package pdftex.def Info: 2x2 stratified table.png  used on input line 193.
+Package pdftex.def Info: 2x2 stratified table.png  used on input line 191.
 (pdftex.def)             Requested size: 341.43306pt x 71.6204pt.
-<breslow day test stat.png, id=66, 287.0725pt x 78.2925pt>
-File: breslow day test stat.png Graphic file (type png)
-<use breslow day test stat.png>
-Package pdftex.def Info: breslow day test stat.png  used on input line 200.
-(pdftex.def)             Requested size: 227.62204pt x 62.07976pt.
-<MH Test Stat.png, id=67, 415.5525pt x 95.35625pt>
-File: MH Test Stat.png Graphic file (type png)
-<use MH Test Stat.png>
-Package pdftex.def Info: MH Test Stat.png  used on input line 207.
-(pdftex.def)             Requested size: 227.62204pt x 52.2322pt.
- [2] [3 <./table.png> <./formula.png> <./2x2 stratified table.png> <./breslow d
-ay test stat.png> <./MH Test Stat.png>]
+ [2] [3 <./table.png> <./2x2 stratified table.png>]
 (./manuscript.bbl [4]
 Underfull \hbox (badness 5490) in paragraph at lines 31--35
 []\OT1/cmr/m/n/12 University, M. (2020).  As-so-ci-a-tion of hep-ati-tis c viru
@@ -489,27 +473,29 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 2940BEB7812DCD36BC314D0B9232C45C;435.
  ) 
 Here is how much of TeX's memory you used:
- 10423 strings out of 475326
- 167643 string characters out of 5784792
- 608671 words of memory out of 5000000
- 31409 multiletter control sequences out of 15000+600000
+ 10397 strings out of 475326
+ 167141 string characters out of 5784792
+ 607531 words of memory out of 5000000
+ 31388 multiletter control sequences out of 15000+600000
  476062 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,77p,268b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,77p,268b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manuscript.pdf (7 pages, 226043 bytes).
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on manuscript.pdf (7 pages, 192748 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  121 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

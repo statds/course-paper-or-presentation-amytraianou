@@ -57,8 +57,8 @@ Additionally, research has found that women who are seropositive for
 HCV have more agressive forms of breast cancer. However, there is 
 minimal research concerning the effect of age on the associaiton. 
 
-Recently on October 6th, Egypt and Qatar agreed to collaborate in the health sector and use each 
-other's expertise. The health ministers specifically mentioned research 
+Recently on October 6th, Egypt and Qatar agreed to collaborate in the health sector and 
+use each other's expertise. The health ministers specifically mentioned research 
 in Hepatitis C and breast cancer as an area of interest \citep{arham2022egypt}. 
 This meeting emphasizes the importance of diving into Hepatitus C Virus 
 and it's association with breast cancer. There have been conflicting
@@ -146,6 +146,8 @@ The data is summarized in the following 2x2 contingency tables.
   \hline
 \end{tabular}
 
+\vspace{1cm}
+
 \end{minipage}
 
 
@@ -163,7 +165,10 @@ more of a risk of breast cancer for those with seropositive Hep C.
 In the data section, the data was summarized into 2x2 contingency tables.
 The generalzied table is shown in Figure~\ref{fig:table}.
 The first step is calculate the probability of the original table occuring,
-using the hypergeometric pdf. Figure~\ref{fig:formula} shows the formula used.
+using the hypergeometric pdf:
+\begin{equation}
+P_a=[\frac{(a+b+c+d)a!b!c!d!}{(a+c)!(b+d)!(a+b)!(c+d)!}]^-1
+\end{equation}
 
 Based on the alternative hypothesis, you then calculate the probability of 
 all more extreme tables based on the a value. In this paper, p1 is the
@@ -183,51 +188,38 @@ which will be tested in the application section.
 
 \begin{figure}[tbp]
   \centering
-  \includegraphics[width=8cm]{formula.png}
-  \caption{Hypergeometric pmf}
-  \label{fig:formula}
-\end{figure}
-
-\begin{figure}[tbp]
-  \centering
   \includegraphics[width=12cm]{2x2 stratified table.png}
   \caption{2x2 Contingency Table with Stratified Data}
   \label{fig:strat}
-\end{figure}
-
-\begin{figure}[tbp]
-  \centering
-  \includegraphics[width=8cm]{breslow day test stat.png}
-  \caption{Breslow Day Test Statistic}
-  \label{fig:BD}
-\end{figure}
-
-\begin{figure}[tbp]
-  \centering
-  \includegraphics[width=8cm]{MH Test Stat.png}
-  \caption{Mantel-Haenszel Test Statistic}
-  \label{fig:MH}
 \end{figure}
 
 
 After calculating the crude estimate, a Breslow-Day test will test for 
 homogeneity of odds ratios between the age stratified data. The generalized
 form of stratified 2x2 contingency tables is shown in Figure~\ref{fig:strat}.
-The Breslow-Day test statistic is shown in Figure~\ref{fig:BD}, which will
-be computed using SAS.
+The Breslow-Day test statistic will be computed using SAS with the formula:
+\begin{equation}
+  \chi_{BD}^2=\displaystyle\sum\limits_{i=0}^s\frac{[A_i-E(A_i|\hat{OR}_{M-H})]^2}{Var(A_i|\hat{OR}_{M-H})}
+\end{equation}
 
 Based on the results of the Breslow Day test for homogeneity of odds ratios,
 the Mantel-Haenszel test will compute a common odds ratio and test if there 
 is an association between seropositivity and breast cancer while controlling 
-for age. The Mantel-Haenszel test statistic is shown in Figure~\ref{fig:MH}
-where the expected value of A is 
+for age. The Mantel-Haenszel test statistic is:
 \begin{equation}
+  \chi_{M-H}^2=\frac{(|\sum\limits_{i=0}^s A_i - \sum\limits_{i=0}^sE(A_i)|-0.5)^2}
+{\sum\limits_{i=0}^s V(A_i)}
+\end{equation}
+
+\vspace{1cm}
+
+The expected value and variance of A for the ith strata is 
+\[
   E(A_{i})=\frac{M_{i1}R_{1i}}{N_{i}} 
-\end{equation}
-and the variance of A is 
-\begin{equation}
+\]
+\[
   V(A_{i})=\frac{R_{1i}R_{0i}M_{1i}M_{0i}}{N_i^2(N_{i}-1)}. 
-\end{equation}
+\]
 
 
 \section{Application}
@@ -267,7 +259,22 @@ for females less than 45 years.
 
 \section{Discussion}
 \label{sec:discuss}
-Based on the 
+Based on the analysis, it is evident that for women under the age of 45,
+seropositivity and breast cancer are strongly associated. As being HCV 
+positive can complicate treatment of cancer, this is critical information.
+In Egypt, breast cancer remains the most common form or cancer and high 
+levels of hepatitus C continue. This study was retrospective so analysis 
+was limited to observing odds ratios and the sample size was quite small.
+Thus, future studies should aim to be prospective cohort studies so 
+researchers can observe how seropisitivity and breast cancer interact 
+over time. 
+Additionally, age is just one factor that can affect the associaiton 
+between hepatitus C and breast cancer. Future studies should dive 
+deeper into more factors such as weight, reproductive history, 
+and alcohol consumption. Addiitonally, future studies can explore how 
+seropositivity affects tumor size, disease agression, and more. As 
+breast cancer is so prevalent in Egypt, further understanding the 
+risk factors is becoming even more importnant. 
 
 
 \bibliography{../manuscript/refs}
