@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  5 DEC 2022 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  5 DEC 2022 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -442,22 +442,24 @@ LaTeX Warning: Reference `tab:older' on page 3 undefined on input line 158.
 Package natbib Warning: Citation `warner2013testing' on page 4 undefined on input line 203.
 
 
-LaTeX Warning: Reference `fig:table' on page 4 undefined on input line 210.
+LaTeX Warning: Reference `fig:table' on page 4 undefined on input line 217.
 
 <table.png, id=32, 384.43625pt x 137.51375pt>
 File: table.png Graphic file (type png)
 <use table.png>
-Package pdftex.def Info: table.png  used on input line 228.
+Package pdftex.def Info: table.png  used on input line 239.
 (pdftex.def)             Requested size: 227.62204pt x 81.42197pt.
-<2x2 stratified table.png, id=34, 555.07375pt x 116.435pt>
+[4]
+<2x2 stratified table.png, id=43, 555.07375pt x 116.435pt>
 File: 2x2 stratified table.png Graphic file (type png)
 <use 2x2 stratified table.png>
-Package pdftex.def Info: 2x2 stratified table.png  used on input line 235.
+Package pdftex.def Info: 2x2 stratified table.png  used on input line 246.
 (pdftex.def)             Requested size: 341.43306pt x 71.6204pt.
 
-LaTeX Warning: Reference `fig:strat' on page 4 undefined on input line 244.
 
-[4 <./table.png>] [5 <./2x2 stratified table.png>] [6] [7]
+LaTeX Warning: Reference `fig:strat' on page 5 undefined on input line 255.
+
+[5 <./table.png> <./2x2 stratified table.png>] [6] [7] [8]
 No file manuscript.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -479,18 +481,18 @@ Package rerunfilecheck Info: Checksums for `manuscript.out':
 (rerunfilecheck)             After:  2940BEB7812DCD36BC314D0B9232C45C;435.
  ) 
 Here is how much of TeX's memory you used:
- 11250 strings out of 475326
- 182150 string characters out of 5784792
+ 11251 strings out of 475326
+ 182156 string characters out of 5784792
  523142 words of memory out of 5000000
  32254 multiletter control sequences out of 15000+600000
  475546 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,354b,372s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on manuscript.pdf (9 pages, 166989 bytes).
+Output written on manuscript.pdf (10 pages, 170760 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex manuscript"] 1670299313 "manuscript.aux" "manuscript.bbl" "manuscript" 1670299313
+["bibtex manuscript"] 1670301959 "manuscript.aux" "manuscript.bbl" "manuscript" 1670301959
   "../manuscript/refs.bib" 1670298302 2502 9e9f977c4e6f45036e8e101207af571c ""
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "manuscript.aux" 1670299313 2979 b55e386b81804792cd60d64517fc0d50 "pdflatex"
+  "manuscript.aux" 1670301959 2980 661f8410a86155b27842e191b1961c0c "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
-["pdflatex"] 1670299312 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1670299312
-  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" 1670299310 13177 7c61fcbc5655b33d72c516707aa5c207 ""
+["pdflatex"] 1670301958 "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1670301958
+  "/Users/amytraianou/Downloads/uconn/Fall 2022/STAT 3494W/course-paper-or-presentation-amytraianou/manuscript/manuscript.tex" 1670301956 16309 9cf754c6eaa64b90d618479fddb259e1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -96,10 +96,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664261035 3024760 accb52bd983a3a49e0634e4fd6ffb5e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "2x2 stratified table.png" 1668454181 38537 b51741c118b9b4cac6dbb70451594bbb ""
-  "manuscript.aux" 1670299312 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "manuscript.aux" 1670301958 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "manuscript.bbl" 0 -1 0 "bibtex manuscript"
   "manuscript.out" 0 -1 0 "pdflatex"
-  "manuscript.tex" 1670299310 13177 7c61fcbc5655b33d72c516707aa5c207 ""
+  "manuscript.tex" 1670301956 16309 9cf754c6eaa64b90d618479fddb259e1 ""
   "table.png" 1668452858 31101 a090d834446a495051e66cb7b0fb865c ""
   (generated)
   "manuscript.aux"

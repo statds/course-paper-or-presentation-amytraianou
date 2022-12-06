@@ -206,16 +206,27 @@ and the expected values of the 2x2 table are too small. The test uses
 the hypergeometric distribution to test if the probabilities are
 the same between the two groups. Thus, we can determine if there is 
 more of a risk of breast cancer for those with seropositive Hep C.
+
+The assumptions of Fisher's Exact Test are that all margins of the table 
+are fixed. The total number of subjects with and without the risk factor,
+(A + C) and (B + D) must be fixed. The total number of subjects with and 
+without the event (A + B) and (C + D) must also be fixed. This is 
+equivalent to conditioning on the marginal values. 
+
 In the data section, the data was summarized into 2x2 contingency tables.
 The generalzied table is shown in Figure~\ref{fig:table}.
 The first step is calculate the probability of the original table occuring,
-using the hypergeometric pdf:
+using the hypergeometric probablity mass function:
 \begin{equation}
 P_a=[\frac{(a+b+c+d)a!b!c!d!}{(a+c)!(b+d)!(a+b)!(c+d)!}]^-1
 \end{equation}
+The hypergeometric distribution is a discrete distribution, so we use the 
+probability mass function for calculations where A is the random variable 
+representing the count in the (1,1) cell. 
 
-Based on the alternative hypothesis, you then calculate the probability of 
-all more extreme tables based on the a value. In this paper, p1 is the
+After finding the probability of the original table, you then calculate the probability of 
+all more extreme tables based on the a value. Fisher's exact test is often 
+a one-sided test based on the research being conducted. In this paper, p1 is the
 probability of having breast cancer given that the patient is seropositive
 and p2 is the probability of having breat cancer given that the patient
 is seronegative. Then, we want to determine if there is an association,
@@ -238,25 +249,32 @@ which will be tested in the application section.
 \end{figure}
 
 
-
-After calculating the crude estimate, a Breslow-Day test will test for 
-homogeneity of odds ratios between the age stratified data. The generalized
+After calculating the crude estimate without age stratfied, 
+a Breslow-Day test will test for homogeneity of odds ratios between 
+the age stratified data, younger than 45 and age 45 or older. The generalized
 form of stratified 2x2 contingency tables is shown in Figure~\ref{fig:strat}.
+The risk factor is in the rows while the event of interest is in the columns.
+Each strata forms its own table that is used for calculations. 
 The Breslow-Day test statistic will be computed using SAS with the formula:
+\vspace{0.5cm}
 \begin{equation}
   \chi_{BD}^2=\displaystyle\sum\limits_{i=0}^s\frac{[A_i-E(A_i|\hat{OR}_{M-H})]^2}{Var(A_i|\hat{OR}_{M-H})}
 \end{equation}
+\vspace{0.5cm}
 
 Based on the results of the Breslow Day test for homogeneity of odds ratios,
 the Mantel-Haenszel test will compute a common odds ratio and test if there 
 is an association between seropositivity and breast cancer while controlling 
-for age. The Mantel-Haenszel test statistic is:
+for age. The Mantel-Haenszel test can only be conducted if the homogeneity of 
+odds ratios is not rejected. The Mantel-Haenszel test statistic is:
+\vspace{0.5cm}
+
 \begin{equation}
   \chi_{M-H}^2=\frac{(|\sum\limits_{i=0}^s A_i - \sum\limits_{i=0}^sE(A_i)|-0.5)^2}
 {\sum\limits_{i=0}^s V(A_i)}
 \end{equation}
 
-\vspace{1cm}
+\vspace{0.5cm}
 
 The expected value and variance of A for the ith strata is 
 \[
@@ -267,8 +285,21 @@ The expected value and variance of A for the ith strata is
 \]
 
 
+This procedure only focuses on odds ratios so it can be used for prospective, 
+retrospective, and cross-sectional studies. Additionally, it focuses on the (1,1) 
+cell on the table just like Fisher's Exact test. It should be noted that the test 
+statistic includes a continuity correction while SAS computes the test statistic 
+without a continuity correction. 
+
+
 \section{Application}
 \label{sec:app}
+As stated in the methods section, we will begin with Fisher's Exact test to 
+determine the relationship between HCV seropositivity and breast cancer without 
+controlling for age. Then, we will conduct a Breslow-Day test to test for 
+homogeneity of odds ratios between the age stratified data. Finally, we will 
+perform a Mantel-Haenszel test to compare the strata. 
+
 Fisher's exact test for the pooled data of all patients tested 
 \[
 H_{0}:p_{1}=p_{2}, H_{a}:p_{1}>p_{2}
@@ -278,22 +309,38 @@ at a 0.05 level of confidence.
 The test resulted in a p-value of 0.0027, which is less than 
 alpha = 0.05. Thus, the null hypothesis is rejected and there 
 is evidence suggesting patients who are seropositive have a
-higher breast cancer rate than those who are seronegative.
+higher breast cancer rate than those who are seronegative 
+without controlling for age. 
 
 Next, the Breslow Day test checks for homogeneity between the 
 stratified ages. 
 \[
 H_{0}:OR_{1}=OR_{2}, H_{a}:OR_{1}\neq{OR_{2}}
 \]
-at a 0.01 level of confidence. 
+at a 0.01 level of confidence. Where OR 1 is the odds ratio of 
+women who did and did not develop breast cancer with seropositivity 
+for women younger than 45 and OR2 is the odds ratio of women who 
+did and did not develop breast cancer with seropositivity for women 
+45 years and older. 
 
 The test resulted in a p-value of 0.0133, which is greater than
-the alpha value. Thus, we can conclude the strata have similar
+the alpha value of 0.05. Thus, we fail to reject the null hypothesis 
+and conclude there is not ennough evidence to suggest the strata have different
 odds ratios and proceed with the Mantel-Haenszel procedure. 
 
 The Mantel-Haenszel test produced a common odds ratio of 1.6847 and 
 a 95 percent confidence interval of (0.9283, 3.0574). The interval
 contains 1 so after controlling for age, the association is not supported.
+Addtionally, we will test the following hypothesis using the Mantel-Haenszel 
+test statistic:
+\[
+H_{0}:OR_{common}=1, H_{a}:OR_{common}\neq{OR_{1}}
+\]
+
+The calculated p-value is 0.0773. Therefore, the fail to reject the null 
+hypothesis and there is not enough evidence that there is an association 
+between HCV seropositivity and breast cancer diagnosis after controlling for 
+age. 
 
 However, the individual odds ratios for age groups are worth noting. For 
 the older group (45 and older) the odds ratio estimate and interval are 
@@ -308,10 +355,17 @@ for females less than 45 years.
 seropositivity and breast cancer are strongly associated. As being HCV 
 positive can complicate treatment of cancer, this is critical information.
 In Egypt, breast cancer remains the most common form or cancer and high 
-levels of hepatitus C continue. This study was retrospective so analysis 
-was limited to observing odds ratios and the sample size was quite small.
+levels of hepatitus C continue. 
+
+There are several limitations to the study that call into question the 
+validity of the results. The small sample size is a result of lack 
+of available data. Therefore, it is hard to find a meaningful 
+association. The study was retrospective, which limited analysis to 
+the odds ratio and not risk difference or relative risk. The method 
+of data collection of the control group is also not ideal. Using historical 
+data can cause issues as direct populations are not being compared. 
 Thus, future studies should aim to be prospective cohort studies so 
-researchers can observe how seropisitivity and breast cancer interact 
+researchers can observe how seropositivity and breast cancer interact 
 over time. 
 
 Additionally, age is just one factor that can affect the associaiton 
@@ -320,7 +374,11 @@ deeper into more factors such as weight, reproductive history,
 and alcohol consumption. Addiitonally, future studies can explore how 
 seropositivity affects tumor size, disease agression, and more. As 
 breast cancer is so prevalent in Egypt, further understanding the 
-risk factors is becoming even more important. 
+risk factors is becoming even more important. The collaboartion between Egypt 
+and Qatar is very promising for emerging research in the health sector. 
+With resources and knowledge from Qatar, it is hopeful that Egypt 
+can research further into Hepatitis C and breast cancer for the good 
+of their population. 
 
 \pagebreak
 
