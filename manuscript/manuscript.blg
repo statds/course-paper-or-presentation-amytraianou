@@ -3,54 +3,202 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: manuscript.aux
 The style file: chicago.bst
 Database file #1: ../manuscript/refs.bib
-I was expecting a `,' or a `}'---line 48 of file ../manuscript/refs.bib
+I was expecting a `,' or a `}'---line 35 of file ../manuscript/refs.bib
+ :   
+ :   pages = {1387–1397}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 58 of file ../manuscript/refs.bib
  :   
  :   url = {https://english.ahram.org.eg/News/477373.aspx}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1563 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1608 of file chicago.bst
 Warning--page numbers missing in vishnu2016does
+Warning--no number and no volume in hussein2020association
+Warning--page numbers missing in hussein2020association
 Warning--no journal in arham2022egypt
 Warning--no number and no volume in arham2022egypt
 Warning--page numbers missing in arham2022egypt
-You've used 6 entries,
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Too many commas in name 1 of "Sun YS, Zhao Z, Yang ZN, Xu F, Lu HJ, Zhu ZY, Shi W, Jiang J, Yao PP, Zhu HP" for entry sun2017risk
+while executing---line 1645 of file chicago.bst
+Warning--page numbers missing in sun2017risk
+You've used 7 entries,
             2861 wiz_defined-function locations,
-            655 strings with 6112 characters,
-and the built_in function-call counts, 4342 in all, are:
-= -- 323
-> -- 379
+            662 strings with 6178 characters,
+and the built_in function-call counts, 4861 in all, are:
+= -- 364
+> -- 405
 < -- 0
-+ -- 114
-- -- 130
-* -- 414
-:= -- 833
-add.period$ -- 17
-call.type$ -- 6
-change.case$ -- 49
-chr.to.int$ -- 6
-cite$ -- 10
-duplicate$ -- 100
-empty$ -- 236
-format.name$ -- 138
-if$ -- 775
++ -- 120
+- -- 140
+* -- 459
+:= -- 932
+add.period$ -- 20
+call.type$ -- 7
+change.case$ -- 55
+chr.to.int$ -- 7
+cite$ -- 14
+duplicate$ -- 118
+empty$ -- 274
+format.name$ -- 148
+if$ -- 866
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
-newline$ -- 32
-num.names$ -- 60
-pop$ -- 33
+missing$ -- 7
+newline$ -- 37
+num.names$ -- 70
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 97
 quote$ -- 0
-skip$ -- 103
+skip$ -- 120
 stack$ -- 0
-substring$ -- 202
-swap$ -- 32
+substring$ -- 222
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 4
-while$ -- 56
+type$ -- 140
+warning$ -- 7
+while$ -- 66
 width$ -- 0
-write$ -- 78
-(There was 1 error message)
+write$ -- 91
+(There were 72 error messages)
